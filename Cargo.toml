@@ -1,0 +1,16 @@
+[package]
+name = "ml-scratch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+differential-dataflow = "0.12"
+itertools = "0.10.5"
+rand = "0.8.5"
+ordered-float = "3.4"
+postgres = "0.19.4"
+native-tls = "0.2"
+postgres-native-tls = "0.5"
+timely = "0.12"
